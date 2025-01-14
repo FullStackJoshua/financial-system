@@ -1,54 +1,57 @@
-# financial-system
-A Java-based financial system designed to calculate marginal tax rates and visualize tax distributions using JavaFX for the user interface and REST APIs for dynamic data fetching.
+# Financial System
 
-Features
-Marginal Tax Calculator:
+A Java-based **financial system** designed to calculate marginal tax rates and visualize tax distributions using **JavaFX** for the user interface and REST APIs for dynamic data fetching.
 
-Calculates tax liability based on salary, filing status, and year.
-Displays detailed tax brackets and effective tax rates.
-Dynamic Tax Data Integration:
+## Features
 
-Fetches tax rules and rates from a REST API.
-Provides visualizations of tax liabilities over multiple years.
-Interactive Graphs and Visualizations:
+- **Marginal Tax Calculator**:
+  - Calculates tax liability based on salary, filing status, and year.
+  - Displays detailed tax brackets and effective tax rates.
 
-Displays tax liability as bar charts for easy understanding.
-Dynamically updates tax brackets and tax rates based on inputs.
-Responsive and Intuitive UI:
+- **Dynamic Tax Data Integration**:
+  - Fetches tax rules and rates from a REST API.
+  - Provides visualizations of tax liabilities over multiple years.
 
-Built with JavaFX for a modern and user-friendly design.
-Supports multiple filing statuses and tax years.
-Installation
-Clone the repository:
+- **Interactive Graphs and Visualizations**:
+  - Displays tax liability as bar charts for easy understanding.
+  - Dynamically updates tax brackets and tax rates based on inputs.
 
-bash
-Copy code
-git clone https://github.com/FullStackJoshua/financial-system.git
-cd financial-system
-Build the project using Maven:
+- **Responsive and Intuitive UI**:
+  - Built with JavaFX for a modern and user-friendly design.
+  - Supports multiple filing statuses and tax years.
 
-bash
-Copy code
-mvn clean install
-Run the application:
+## Installation
 
-bash
-Copy code
-mvn javafx:run
-Requirements
-Java: JDK 17+
-Maven: 3.6+
-JavaFX SDK: 17+ (Ensure it's properly configured in your environment)
-Usage
-Enter your salary in the input field.
-Select your filing status (Single, Married, etc.).
-Choose the tax year to calculate tax liability.
-Click on the calculate button to see:
-Tax brackets and their respective rates.
-Effective tax rate and total tax liability.
-Graphical representation of the tax distribution.
-Technology Stack
-JavaFX: For building the graphical user interface.
-REST APIs: To fetch tax data dynamically.
-Maven: For build automation.
-GitHub: For version control.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/FullStackJoshua/financial-system.git
+   cd financial-system
+2. Build the project using Maven:
+   ```bash
+   mvn clean install
+3. Run the application:
+   ```bash
+   mvn javafx:run
+
+## Requirements
+
+- **Java**: JDK 17+
+- **Maven**: 3.6+
+- **JavaFX SDK**: 17+ (Ensure it's properly configured in your environment)
+
+## Usage
+
+1. **Enter your salary** in the input field.
+2. **Select your filing status** (Single, Married, etc.).
+3. **Choose the tax year** to calculate tax liability.
+4. **Click on the calculate button** to view:
+   - Tax brackets and their respective rates.
+   - Effective tax rate and total tax liability.
+   - Graphical representation of the tax distribution.
+
+## Technology Stack
+
+- **JavaFX**: For building the graphical user interface.
+- **REST APIs**: To fetch tax data dynamically.
+- **Maven**: For build automation.
+- **GitHub**: For version control.
